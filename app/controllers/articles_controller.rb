@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
     def show
-        debugger
+        # debugger
         @article = Article.find(params[:id])
     end
 end
